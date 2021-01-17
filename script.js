@@ -7,8 +7,8 @@ console.log('Имя'+ ' '+name +',' +'Год рождения ' +year+','+'Ны�
 console.log(name+' '+'Ваш возраст' +(child-year));
 alert(name+' '+'Ваш возраст' +(child-year));
 //=============================  !!2 exercize!!!
-var min=+prompt('fvjh,df');
-var max=+prompt(';gyjfgv');
+var min=+prompt('Введите минимальное число');
+var max=+prompt(' Введите максимальное число');
 var amount=+prompt('Введите количество примеры:');
 function run(min,max) {
     let num=Math.floor(Math.random()*(max+1-min)+min);
